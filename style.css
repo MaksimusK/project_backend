@@ -1,0 +1,64 @@
+/* .my_class{
+    color:rgb(49, 31, 153);
+    text-align: center;
+    border: 5px solid rgb(49, 31, 153);
+    padding: 20px;
+}
+.my_stack{
+    color:rgb(49, 31, 153);
+}
+body{
+
+    background-image: url('img/fon_piatna_linii_85563_1920x1080.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+} */
+ .container {
+  width: 100%;
+  max-width: 1024px; /*максимальная ширина может иметь другое значение*/
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.container div {
+    float: right;
+    margin-bottom: 40px;
+  }
+.logo {
+    float: left;
+    font-size: 56px
+  }
+nav {
+    float:right;
+    
+  }
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  nav b1 {
+    background: #00000000; /* Цвет фона */
+    border: #000000 solid 3px ; /* Рамка вокруг текста */
+    color: #000000; /* Цвет текста */
+    padding: 5px; /* Поля вокруг текста */
+    -moz-border-radius: 5px; /* Для Firefox 3 */
+    -webkit-border-radius: 5px; /* Для Safari 4 и Chrome */
+    border-radius: 50px; /* Для современных браузеров */
+    
+  }
+nav li {
+    display: inline-block; /*один из способов разместить элементы в строку*/
+    
+  }
+body {
+    font-family: 'CustomFont', Arial, sans-serif;
+  }
+  .col-1-2 {
+    width: 50%;  
+  }
+  
+/* .my_background{
+    background-color: yellow;
+} */
