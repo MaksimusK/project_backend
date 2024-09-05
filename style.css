@@ -20,6 +20,7 @@ body{
   padding: 0 15px;
   margin: 0 auto;
 }
+
 .container div {
     float: right;
     margin-bottom: 40px;
@@ -33,9 +34,9 @@ nav {
     
   }
 nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
+  list-style: none; /*убираем маркеры списка*/
+  margin: 100px; /*убираем верхнее и нижнее поле, равное 1em*/
+  padding-left: 0; /*убираем левый отступ, равный 40px*/
   }
 
   nav b1 {
