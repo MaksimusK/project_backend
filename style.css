@@ -100,6 +100,21 @@ nav {
     margin-left: 340px; /*убираем верхнее и нижнее поле, равное 1em*/
     padding-left: 0;
 }
+.cccc2{
+  position: relative;
+  top: 230px;
+  left: 40px;
+  Font-weight: bold;
+  font-size: 25px;
+
+}
+.cccc3{
+  position:relative;
+  top: 240px;
+  left: 40px;
+  font-size: 15px;
+
+}
 .img_1
 {
   height: 50px;
