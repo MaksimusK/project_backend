@@ -110,9 +110,12 @@ nav {
 }
 .cccc3{
   position:relative;
-  top: 240px;
+  top: 210px;
   left: 40px;
   font-size: 15px;
+  text-overflow: ellipsis;
+  width: 80%;
+  height: 20%;
 
 }
 .img_1
@@ -141,6 +144,12 @@ nav {
     -webkit-border-radius: 5px; /* Для Safari 4 и Chrome */
     border-radius: 50px; /* Для современных браузеров */
   }
+  footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    width: 100%; /* Ширина слоя */
   
+}
   
   
