@@ -59,9 +59,9 @@ nav {
     border: #000000 solid 3px ; /* Рамка вокруг текста */
     color: #000000; /* Цвет текста */
     padding: 10px; /* Поля вокруг текста */
-    -moz-border-radius: 5px; /* Для Firefox 3 */
-    -webkit-border-radius: 5px; /* Для Safari 4 и Chrome */
-    border-radius: 50px; /* Для современных браузеров */
+    -moz-border-radius: 5px; 
+    -webkit-border-radius: 5px; 
+    border-radius: 50px;
     margin-top: 10px;
   }
   
@@ -117,9 +117,7 @@ nav {
     margin: 100px; /*убираем верхнее и нижнее поле, равное 1em*/
     padding-left: 0; /*убираем левый отступ, равный 40px*/
     }
-  /* body {
-    font-family: 'CustomFont', Arial, sans-serif;
-  } */
+
   .col-1-2 {
     
     width: 49%;
@@ -128,9 +126,9 @@ nav {
     border: #2d2727 solid 1px ; /* Рамка вокруг текста */
     color: #000000; /* Цвет текста */
     padding: 1px; /* Поля вокруг текста */
-    -moz-border-radius: 5px; /* Для Firefox 3 */
-    -webkit-border-radius: 5px; /* Для Safari 4 и Chrome */
-    border-radius: 50px; /* Для современных браузеров */
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px; 
+    border-radius: 50px; 
   }
   footer {
     position: fixed; /* Фиксированное положение */
