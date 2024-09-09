@@ -92,11 +92,12 @@ nav {
 .cccc{
   float: left;
   margin-top: 20px;
+  font-size: 13px;
 }
 .cccc1{
   float: right;
     list-style: none; /*убираем маркеры списка*/
-    margin-left: 350px; /*убираем верхнее и нижнее поле, равное 1em*/
+    margin-left: 340px; /*убираем верхнее и нижнее поле, равное 1em*/
     padding-left: 0;
 }
 .img_1
