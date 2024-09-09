@@ -1,19 +1,4 @@
-/* .my_class{
-    color:rgb(49, 31, 153);
-    text-align: center;
-    border: 5px solid rgb(49, 31, 153);
-    padding: 20px;
-}
-.my_stack{
-    color:rgb(49, 31, 153);
-}
-body{
 
-    background-image: url('img/fon_piatna_linii_85563_1920x1080.jpg');
-    background-repeat: no-repeat;
-    background-size: cover;
-
-} */
  .container {
   width: 100%;
   max-width: 1024px; /*максимальная ширина может иметь другое значение*/
@@ -95,6 +80,9 @@ nav {
   font-size: 13px;
 }
 .cccc1{
+  position:relative;
+  top: 10px;
+  left: 10px;
   float: right;
     list-style: none; /*убираем маркеры списка*/
     margin-left: 340px; /*убираем верхнее и нижнее поле, равное 1em*/
@@ -110,7 +98,7 @@ nav {
 }
 .cccc3{
   position:relative;
-  top: 210px;
+  top: 215px;
   left: 40px;
   font-size: 15px;
   text-overflow: ellipsis;
