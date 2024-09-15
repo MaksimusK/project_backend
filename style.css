@@ -1,9 +1,11 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
  .container {
   width: 100%;
   max-width: 1024px; /*максимальная ширина может иметь другое значение*/
   padding: 0 15px;
   margin: 0 auto;
+  
 }
 .container1{
   width: 100%;
@@ -21,13 +23,14 @@
   }
 .logo {
     float: left;
-    font-family: 'CustomFont', Arial, sans-serif;
-    font-size: 56px
+    font-family: 'Inter', sans-serif;
+    font-size: 56px;
   }
 .logo2{
   float: left;
-    font-family: 'CustomFont', Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 12px
+    
 }
 
 nav {
@@ -46,9 +49,10 @@ nav {
   
   nav b1 {
     background: #00000000; /* Цвет фона */
-    border: #000000 solid 3px ; /* Рамка вокруг текста */
+    border: #c3bfbf solid 1px ; /* Рамка вокруг текста */
     color: #000000; /* Цвет текста */
-    padding: 5px; /* Поля вокруг текста */
+    padding: 10px; /* Поля вокруг текста */
+    margin-left: 10px;
     -moz-border-radius: 5px; /* Для Firefox 3 */
     -webkit-border-radius: 5px; /* Для Safari 4 и Chrome */
     border-radius: 50px; /* Для современных браузеров */
@@ -78,22 +82,23 @@ nav {
   float: left;
   margin-top: 20px;
   font-size: 13px;
+  font-size: 17px;
 }
 .cccc1{
   position:relative;
-  top: 10px;
-  left: 10px;
+  top: 25px;
+  left: 1px;
   float: right;
     list-style: none; /*убираем маркеры списка*/
-    margin-left: 340px; /*убираем верхнее и нижнее поле, равное 1em*/
+    margin-left: 310px; /*убираем верхнее и нижнее поле, равное 1em*/
     padding-left: 0;
 }
 .cccc2{
   position: relative;
   top: 230px;
   left: 40px;
-  Font-weight: bold;
-  font-size: 25px;
+  Font-weight:500;
+  font-size: 35px;
 
 }
 .cccc3{
@@ -108,14 +113,15 @@ nav {
 }
 .img_1
 {
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
   nav ul {
-    font-family: 'CustomFont', Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     list-style: none; /*убираем маркеры списка*/
     margin: 100px; /*убираем верхнее и нижнее поле, равное 1em*/
     padding-left: 0; /*убираем левый отступ, равный 40px*/
+    margin-right: 8px;
     }
 
   .col-1-2 {
